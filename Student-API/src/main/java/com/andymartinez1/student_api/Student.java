@@ -16,6 +16,11 @@ public class Student {
         this.name = name;
     }
 
+    public Student(Integer id) {
+        super();
+        this.id = id;
+    }
+
     public Student(Integer id, String name) {
         super();
         this.id = id;
